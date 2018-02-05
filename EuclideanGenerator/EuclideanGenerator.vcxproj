@@ -82,7 +82,7 @@
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.usr-win64</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\bin</OutDir>
+    <OutDir>..\bin\</OutDir>
     <IntDir>$(SDK_TMP)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -232,11 +232,13 @@
     <ClInclude Include="..\..\sdk\UserModule.h" />
     <ClInclude Include="..\..\sdk\UserUtils.h" />
     <ClInclude Include="..\..\sdk\UsineDefinitions.h" />
+    <ClInclude Include="bjorklund.h" />
     <ClInclude Include="EuclideanGenerator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\sdk\UserModule.cpp" />
     <ClCompile Include="..\..\sdk\UserUtils.cpp" />
+    <ClCompile Include="bjorklund.cpp" />
     <ClCompile Include="EuclideanGenerator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

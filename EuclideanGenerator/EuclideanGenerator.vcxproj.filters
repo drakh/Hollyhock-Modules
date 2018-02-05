@@ -8,6 +8,7 @@
     <ClCompile Include="..\..\sdk\UserUtils.cpp">
       <Filter>sdk</Filter>
     </ClCompile>
+    <ClCompile Include="bjorklund.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EuclideanGenerator.h" />
@@ -23,6 +24,7 @@
     <ClInclude Include="..\..\sdk\UsineDefinitions.h">
       <Filter>sdk</Filter>
     </ClInclude>
+    <ClInclude Include="bjorklund.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="sdk">
