@@ -18,11 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\sdk\UserDefinitions.h" />
+    <ClInclude Include="..\..\sdk\UserModule.h" />
+    <ClInclude Include="..\..\sdk\UserUtils.h" />
+    <ClInclude Include="..\..\sdk\UsineDefinitions.h" />
+    <ClInclude Include="..\libs\bjorklund.h" />
+    <ClInclude Include="AdvancedEuclideanGenerator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\sdk\UserModule.cpp" />
+    <ClCompile Include="..\..\sdk\UserUtils.cpp" />
+    <ClCompile Include="..\libs\bjorklund.cpp" />
+    <ClCompile Include="AdvancedEuclideanGenerator.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{02BFC3F1-0957-4157-B851-8BDD89DA20B4}</ProjectGuid>
+    <ProjectGuid>{919A22E1-FC7E-406E-8524-78A1A44E4541}</ProjectGuid>
     <RootNamespace>UserModule</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <ProjectName>EuclideanGenerator</ProjectName>
+    <ProjectName>AdvancedEuclideanGenerator</ProjectName>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -227,20 +241,6 @@
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\sdk\UserDefinitions.h" />
-    <ClInclude Include="..\..\sdk\UserModule.h" />
-    <ClInclude Include="..\..\sdk\UserUtils.h" />
-    <ClInclude Include="..\..\sdk\UsineDefinitions.h" />
-    <ClInclude Include="..\libs\bjorklund.h" />
-    <ClInclude Include="EuclideanGenerator.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\sdk\UserModule.cpp" />
-    <ClCompile Include="..\..\sdk\UserUtils.cpp" />
-    <ClCompile Include="..\libs\bjorklund.cpp" />
-    <ClCompile Include="EuclideanGenerator.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

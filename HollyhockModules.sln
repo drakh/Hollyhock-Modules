@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EuclideanGenerator", "EuclideanGenerator\EuclideanGenerator.vcxproj", "{02BFC3F1-0957-4157-B851-8BDD89DA20B4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdvancedEuclideanGenerator", "AdvancedEuclideanGenerator\AdvancedEuclideanGenerator.vcxproj", "{919A22E1-FC7E-406E-8524-78A1A44E4541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,14 @@ Global
 		{02BFC3F1-0957-4157-B851-8BDD89DA20B4}.Release|Win32.Build.0 = Release|Win32
 		{02BFC3F1-0957-4157-B851-8BDD89DA20B4}.Release|x64.ActiveCfg = Release|x64
 		{02BFC3F1-0957-4157-B851-8BDD89DA20B4}.Release|x64.Build.0 = Release|x64
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Debug|Win32.ActiveCfg = Debug|Win32
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Debug|Win32.Build.0 = Debug|Win32
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Debug|x64.ActiveCfg = Debug|x64
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Debug|x64.Build.0 = Debug|x64
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Release|Win32.ActiveCfg = Release|Win32
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Release|Win32.Build.0 = Release|Win32
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Release|x64.ActiveCfg = Release|x64
+		{919A22E1-FC7E-406E-8524-78A1A44E4541}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,11 +5,11 @@
 #include <iostream>
 #include <cmath>
 #include <limits>
-class EuclideanGenerator : public UserModuleBase
+class AdvancedEuclideanGenerator : public UserModuleBase
 {
 public:
-	EuclideanGenerator(){};
-	virtual ~EuclideanGenerator(){};
+	AdvancedEuclideanGenerator(){};
+	virtual ~AdvancedEuclideanGenerator(){};
 public:
 	void onGetModuleInfo (MasterInfo* pMasterInfo, ModuleInfo* pModuleInfo);
 	void onInitModule (MasterInfo* pMasterInfo, ModuleInfo* pModuleInfo);
@@ -20,8 +20,10 @@ private:
 	// parameters events
 	UsineEventPtr dtfInputSteps;
 	UsineEventPtr dtfInputBeats;
+	UsineEventPtr dtfInputAccents;
 	UsineEventPtr dtfInputGenerate;
 	UsineEventPtr dftBeatsOut;
+	UsineEventPtr dftAccentsOut;
 	inline void updateCellsValues();
 };
 
