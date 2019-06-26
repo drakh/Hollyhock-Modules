@@ -3,11 +3,8 @@
 
 const AnsiCharPtr UserModuleBase::MODULE_NAME = "euclidean generator";
 const AnsiCharPtr UserModuleBase::MODULE_DESC = "Simple euclidean sequence generator";
-const AnsiCharPtr UserModuleBase::MODULE_VERSION = "1.1";
+const AnsiCharPtr UserModuleBase::MODULE_VERSION = "1.2";
 const int MAX_SIZE = 256;
-int steps = 16;
-int beats = 0;
-int accents = 0;
 
 void CreateModule(void* &pModule, AnsiCharPtr optionalString, LongBool Flag, MasterInfo* pMasterInfo, AnsiCharPtr optionalContent)
 {
@@ -38,7 +35,6 @@ void EuclideanGenerator::onGetModuleInfo(MasterInfo* pMasterInfo, ModuleInfo* pM
 	pModuleInfo->Version = MODULE_VERSION;
 	pModuleInfo->DontProcess = TRUE;
 	pModuleInfo->CanBeSavedInPreset = FALSE;
-
 }
 
 void EuclideanGenerator::onGetParamInfo(int ParamIndex, TParamInfo* pParamInfo)

@@ -3,11 +3,8 @@
 
 const AnsiCharPtr UserModuleBase::MODULE_NAME = "advanced euclidean generator";
 const AnsiCharPtr UserModuleBase::MODULE_DESC = "Euclidean generator with accents distribution";
-const AnsiCharPtr UserModuleBase::MODULE_VERSION = "1.1";
+const AnsiCharPtr UserModuleBase::MODULE_VERSION = "1.2";
 const int MAX_SIZE = 256;
-int steps = 16;
-int beats = 0;
-int accents = 0;
 
 void CreateModule(void* &pModule, AnsiCharPtr optionalString, LongBool Flag, MasterInfo* pMasterInfo, AnsiCharPtr optionalContent)
 {

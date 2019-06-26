@@ -25,6 +25,9 @@ private:
 	UsineEventPtr dftBeatsOut;
 	UsineEventPtr dftAccentsOut;
 	inline void updateCellsValues();
+	int steps = 16;
+	int beats = 0;
+	int accents = 0;
 };
 
 #endif //__RGBA_COLOR_MODULE_H__

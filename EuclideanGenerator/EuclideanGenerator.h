@@ -22,6 +22,8 @@ private:
 	UsineEventPtr dtfInputBeats;
 	UsineEventPtr dtfInputGenerate;
 	UsineEventPtr dftBeatsOut;
+	int steps = 16;
+	int beats = 0;
 	inline void updateCellsValues();
 };
 
