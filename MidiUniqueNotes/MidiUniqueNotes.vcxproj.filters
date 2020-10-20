@@ -9,31 +9,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sdk\UserDefinitions.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UserModule.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UserUtils.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UsineDefinitions.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
     <ClInclude Include="MidiUniqueNotes.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserDefinitions.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserModule.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserUtils.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UsineDefinitions.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sdk\UserModule.cpp">
-      <Filter>sdk</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sdk\UserUtils.cpp">
-      <Filter>sdk</Filter>
-    </ClCompile>
     <ClCompile Include="MidiUniqueNotes.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserModule.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserUtils.cpp">
+      <Filter>sdk</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

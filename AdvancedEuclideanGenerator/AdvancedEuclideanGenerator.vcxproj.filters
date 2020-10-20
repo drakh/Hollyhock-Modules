@@ -12,37 +12,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sdk\UserDefinitions.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UserModule.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UserUtils.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\sdk\UsineDefinitions.h">
-      <Filter>sdk</Filter>
-    </ClInclude>
     <ClInclude Include="..\libs\bjorklund.h">
       <Filter>libs</Filter>
     </ClInclude>
     <ClInclude Include="AdvancedEuclideanGenerator.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserDefinitions.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserModule.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserUtils.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Usine-SDK\sdk\UsineDefinitions.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sdk\UserModule.cpp">
-      <Filter>sdk</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\sdk\UserUtils.cpp">
-      <Filter>sdk</Filter>
-    </ClCompile>
     <ClCompile Include="..\libs\bjorklund.cpp">
       <Filter>libs</Filter>
     </ClCompile>
     <ClCompile Include="AdvancedEuclideanGenerator.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserModule.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserUtils.cpp">
+      <Filter>sdk</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

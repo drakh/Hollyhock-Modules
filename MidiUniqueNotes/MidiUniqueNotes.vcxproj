@@ -39,7 +39,7 @@
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
@@ -73,6 +73,12 @@
     <TargetExt>.usr-win64</TargetExt>
     <OutDir>..\bin\</OutDir>
     <IntDir>$(SDK_TMP)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\VSTSources\Usine-SDK\sdk;$(IncludePath)</IncludePath>
+    <OutDir>..\bin\</OutDir>
+    <IntDir>$(SDK_TMP)\$(Configuration)\$(ProjectName)\</IntDir>
+    <TargetExt>.usr-win64</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -127,15 +133,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sdk\UserDefinitions.h" />
-    <ClInclude Include="..\..\sdk\UserModule.h" />
-    <ClInclude Include="..\..\sdk\UserUtils.h" />
-    <ClInclude Include="..\..\sdk\UsineDefinitions.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserDefinitions.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserModule.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserUtils.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UsineDefinitions.h" />
     <ClInclude Include="MidiUniqueNotes.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sdk\UserModule.cpp" />
-    <ClCompile Include="..\..\sdk\UserUtils.cpp" />
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserModule.cpp" />
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserUtils.cpp" />
     <ClCompile Include="MidiUniqueNotes.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -19,16 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\sdk\UserDefinitions.h" />
-    <ClInclude Include="..\..\sdk\UserModule.h" />
-    <ClInclude Include="..\..\sdk\UserUtils.h" />
-    <ClInclude Include="..\..\sdk\UsineDefinitions.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserDefinitions.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserModule.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UserUtils.h" />
+    <ClInclude Include="..\..\Usine-SDK\sdk\UsineDefinitions.h" />
     <ClInclude Include="..\libs\bjorklund.h" />
     <ClInclude Include="AdvancedEuclideanGenerator.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\sdk\UserModule.cpp" />
-    <ClCompile Include="..\..\sdk\UserUtils.cpp" />
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserModule.cpp" />
+    <ClCompile Include="..\..\Usine-SDK\sdk\UserUtils.cpp" />
     <ClCompile Include="..\libs\bjorklund.cpp" />
     <ClCompile Include="AdvancedEuclideanGenerator.cpp" />
   </ItemGroup>
@@ -102,6 +102,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\bin\</OutDir>
     <IntDir>$(SDK_TMP)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IncludePath>D:\VSTSources\Usine-SDK\sdk;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
